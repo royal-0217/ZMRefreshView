@@ -1,0 +1,445 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B38D23081B6F51970000FE60 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B38D23071B6F51970000FE60 /* main.m */; };
+		B38D230B1B6F51970000FE60 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B38D230A1B6F51970000FE60 /* AppDelegate.m */; };
+		B38D230E1B6F51970000FE60 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B38D230D1B6F51970000FE60 /* ViewController.m */; };
+		B38D23111B6F51970000FE60 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B38D230F1B6F51970000FE60 /* Main.storyboard */; };
+		B38D23131B6F51970000FE60 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B38D23121B6F51970000FE60 /* Images.xcassets */; };
+		B38D23161B6F51970000FE60 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = B38D23141B6F51970000FE60 /* LaunchScreen.xib */; };
+		B38D23221B6F51970000FE60 /* ZMRefreshViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B38D23211B6F51970000FE60 /* ZMRefreshViewTests.m */; };
+		B38D232D1B6F52A70000FE60 /* UIScrollView+Refresh.m in Sources */ = {isa = PBXBuildFile; fileRef = B38D232C1B6F52A70000FE60 /* UIScrollView+Refresh.m */; };
+		B38D23301B6F64ED0000FE60 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B38D232F1B6F64ED0000FE60 /* DetailViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B38D231C1B6F51970000FE60 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B38D22FA1B6F51970000FE60 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B38D23011B6F51970000FE60;
+			remoteInfo = ZMRefreshView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B38D23021B6F51970000FE60 /* ZMRefreshView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZMRefreshView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B38D23061B6F51970000FE60 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B38D23071B6F51970000FE60 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B38D23091B6F51970000FE60 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B38D230A1B6F51970000FE60 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B38D230C1B6F51970000FE60 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		B38D230D1B6F51970000FE60 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		B38D23101B6F51970000FE60 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B38D23121B6F51970000FE60 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		B38D23151B6F51970000FE60 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		B38D231B1B6F51970000FE60 /* ZMRefreshViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZMRefreshViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B38D23201B6F51970000FE60 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B38D23211B6F51970000FE60 /* ZMRefreshViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZMRefreshViewTests.m; sourceTree = "<group>"; };
+		B38D232B1B6F52A70000FE60 /* UIScrollView+Refresh.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+Refresh.h"; sourceTree = "<group>"; };
+		B38D232C1B6F52A70000FE60 /* UIScrollView+Refresh.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+Refresh.m"; sourceTree = "<group>"; };
+		B38D232E1B6F64ED0000FE60 /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		B38D232F1B6F64ED0000FE60 /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B38D22FF1B6F51970000FE60 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B38D23181B6F51970000FE60 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B38D22F91B6F51970000FE60 = {
+			isa = PBXGroup;
+			children = (
+				B38D23041B6F51970000FE60 /* ZMRefreshView */,
+				B38D231E1B6F51970000FE60 /* ZMRefreshViewTests */,
+				B38D23031B6F51970000FE60 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B38D23031B6F51970000FE60 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B38D23021B6F51970000FE60 /* ZMRefreshView.app */,
+				B38D231B1B6F51970000FE60 /* ZMRefreshViewTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B38D23041B6F51970000FE60 /* ZMRefreshView */ = {
+			isa = PBXGroup;
+			children = (
+				B38D23091B6F51970000FE60 /* AppDelegate.h */,
+				B38D230A1B6F51970000FE60 /* AppDelegate.m */,
+				B38D230C1B6F51970000FE60 /* ViewController.h */,
+				B38D230D1B6F51970000FE60 /* ViewController.m */,
+				B38D230F1B6F51970000FE60 /* Main.storyboard */,
+				B38D23121B6F51970000FE60 /* Images.xcassets */,
+				B38D23141B6F51970000FE60 /* LaunchScreen.xib */,
+				B38D23051B6F51970000FE60 /* Supporting Files */,
+				B38D232B1B6F52A70000FE60 /* UIScrollView+Refresh.h */,
+				B38D232C1B6F52A70000FE60 /* UIScrollView+Refresh.m */,
+				B38D232E1B6F64ED0000FE60 /* DetailViewController.h */,
+				B38D232F1B6F64ED0000FE60 /* DetailViewController.m */,
+			);
+			path = ZMRefreshView;
+			sourceTree = "<group>";
+		};
+		B38D23051B6F51970000FE60 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B38D23061B6F51970000FE60 /* Info.plist */,
+				B38D23071B6F51970000FE60 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B38D231E1B6F51970000FE60 /* ZMRefreshViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				B38D23211B6F51970000FE60 /* ZMRefreshViewTests.m */,
+				B38D231F1B6F51970000FE60 /* Supporting Files */,
+			);
+			path = ZMRefreshViewTests;
+			sourceTree = "<group>";
+		};
+		B38D231F1B6F51970000FE60 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B38D23201B6F51970000FE60 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B38D23011B6F51970000FE60 /* ZMRefreshView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B38D23251B6F51970000FE60 /* Build configuration list for PBXNativeTarget "ZMRefreshView" */;
+			buildPhases = (
+				B38D22FE1B6F51970000FE60 /* Sources */,
+				B38D22FF1B6F51970000FE60 /* Frameworks */,
+				B38D23001B6F51970000FE60 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZMRefreshView;
+			productName = ZMRefreshView;
+			productReference = B38D23021B6F51970000FE60 /* ZMRefreshView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B38D231A1B6F51970000FE60 /* ZMRefreshViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B38D23281B6F51970000FE60 /* Build configuration list for PBXNativeTarget "ZMRefreshViewTests" */;
+			buildPhases = (
+				B38D23171B6F51970000FE60 /* Sources */,
+				B38D23181B6F51970000FE60 /* Frameworks */,
+				B38D23191B6F51970000FE60 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B38D231D1B6F51970000FE60 /* PBXTargetDependency */,
+			);
+			name = ZMRefreshViewTests;
+			productName = ZMRefreshViewTests;
+			productReference = B38D231B1B6F51970000FE60 /* ZMRefreshViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B38D22FA1B6F51970000FE60 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = Leo;
+				TargetAttributes = {
+					B38D23011B6F51970000FE60 = {
+						CreatedOnToolsVersion = 6.3.1;
+					};
+					B38D231A1B6F51970000FE60 = {
+						CreatedOnToolsVersion = 6.3.1;
+						TestTargetID = B38D23011B6F51970000FE60;
+					};
+				};
+			};
+			buildConfigurationList = B38D22FD1B6F51970000FE60 /* Build configuration list for PBXProject "ZMRefreshView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B38D22F91B6F51970000FE60;
+			productRefGroup = B38D23031B6F51970000FE60 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B38D23011B6F51970000FE60 /* ZMRefreshView */,
+				B38D231A1B6F51970000FE60 /* ZMRefreshViewTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B38D23001B6F51970000FE60 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B38D23111B6F51970000FE60 /* Main.storyboard in Resources */,
+				B38D23161B6F51970000FE60 /* LaunchScreen.xib in Resources */,
+				B38D23131B6F51970000FE60 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B38D23191B6F51970000FE60 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B38D22FE1B6F51970000FE60 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B38D23301B6F64ED0000FE60 /* DetailViewController.m in Sources */,
+				B38D230E1B6F51970000FE60 /* ViewController.m in Sources */,
+				B38D230B1B6F51970000FE60 /* AppDelegate.m in Sources */,
+				B38D23081B6F51970000FE60 /* main.m in Sources */,
+				B38D232D1B6F52A70000FE60 /* UIScrollView+Refresh.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B38D23171B6F51970000FE60 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B38D23221B6F51970000FE60 /* ZMRefreshViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B38D231D1B6F51970000FE60 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B38D23011B6F51970000FE60 /* ZMRefreshView */;
+			targetProxy = B38D231C1B6F51970000FE60 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B38D230F1B6F51970000FE60 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B38D23101B6F51970000FE60 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B38D23141B6F51970000FE60 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B38D23151B6F51970000FE60 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B38D23231B6F51970000FE60 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		B38D23241B6F51970000FE60 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B38D23261B6F51970000FE60 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ZMRefreshView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B38D23271B6F51970000FE60 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ZMRefreshView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		B38D23291B6F51970000FE60 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ZMRefreshViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZMRefreshView.app/ZMRefreshView";
+			};
+			name = Debug;
+		};
+		B38D232A1B6F51970000FE60 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ZMRefreshViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZMRefreshView.app/ZMRefreshView";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B38D22FD1B6F51970000FE60 /* Build configuration list for PBXProject "ZMRefreshView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B38D23231B6F51970000FE60 /* Debug */,
+				B38D23241B6F51970000FE60 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B38D23251B6F51970000FE60 /* Build configuration list for PBXNativeTarget "ZMRefreshView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B38D23261B6F51970000FE60 /* Debug */,
+				B38D23271B6F51970000FE60 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B38D23281B6F51970000FE60 /* Build configuration list for PBXNativeTarget "ZMRefreshViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B38D23291B6F51970000FE60 /* Debug */,
+				B38D232A1B6F51970000FE60 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B38D22FA1B6F51970000FE60 /* Project object */;
+}
